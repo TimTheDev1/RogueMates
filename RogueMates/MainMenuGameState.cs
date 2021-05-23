@@ -13,8 +13,8 @@ namespace RogueMates
         private readonly Ben ben = Program.ben;
         private readonly Tim tim = Program.tim;
         private readonly Ty ty = Program.ty;
-        const string CharacterSaveDataLocation = @"C:\RogueMates\CharacterSaveData.txt";
-        const string PointsSaveDataLocation = @"C:\RogueMates\PointsSaveData.txt";
+        const string CharacterSaveDataLocation = @"./CharacterSaveData.txt";
+        const string PointsSaveDataLocation = @"./PointsSaveData.txt";
         private string pointsSaveData;
         private string characterSaveData;
         private Dictionary<string, CharacterStats> characterStats = new Dictionary<string, CharacterStats>();
